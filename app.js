@@ -54,4 +54,6 @@
 //   };
 //
 // })();
+
+//Minified JS
 !function(){"use strict";function e(e,t){e.name="",e.totalValue=0,e.displayMessage=function(){var t=function(e){if(""!=e)for(var t=e.split(","),a=0,l=0;l<t.length;l++)a+=1;else a=0;return a}(e.name);e.totalValue=t,e.message="",0===e.totalValue?e.message="Please enter data first":e.totalValue>=1&&e.totalValue<4?e.message="Enjoy!":e.message="Too much!"}}angular.module("LunchCheck",[]).controller("LunchCheckController",e),e.$inject=["$scope","$injector"]}();
